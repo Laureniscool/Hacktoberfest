@@ -39,7 +39,7 @@ while True:
       feelings_list.append("disappointed")
       encouragement_list.append("No worries. You will do better next time!")
       counter += 1
-     if each_word == "lazy":
+    if each_word == "lazy":
       feelings_list.append("lazy")
       encouragement_list.append("you can laze, but make sure you set aside enough time for revision and preparations for next year and do something meaningful")
       counter += 1
@@ -55,11 +55,22 @@ while True:
       feelings_list.append("confused")
       encouragement_list.append("You don't have to have it all figured out to move forward")
       counter += 1
-      if each_word == "lost":
+    if each_word == "lost":
       feelings_list.append("lost")
       encouragement_list.append("Sometimes, you have to stop thinking too much and just go where your heart takes you")
       counter += 1
-       
+    if each_word == "lonely":
+      feelings_list.append("lonely")
+      encouragement_list.append("Talk to a friend or your family and remember I'll be there for you!")
+      counter += 1
+    if each_word == "guilty":
+      feelings_list.append("guilty")
+      encouragement_list.append("Admit your mistake and try to fix it. Mistakes are inevitable.")
+      counter += 1
+   
+   
+      
+     
   if counter == 0:
     
       output = "Sorry I don't really understand. Please use different words?"
@@ -93,4 +104,3 @@ while True:
   print()
   print(output)
   print()
-
